@@ -1,9 +1,10 @@
+import LiveClock from "./components/LiveClock";
 
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <LiveClock />
     </div>
   );
 }
